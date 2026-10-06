@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Study Room Booking",
+    "slug": "study-room-booking",
+    "scheme": "studyroombooking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.campus.studyroombooking"
+    },
+    "android": {
+      "package": "com.campus.studyroombooking",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-auth-session"
+    ]
+  }
+}
